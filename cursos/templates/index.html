@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link rel = "stylesheet" href="{% static 'css/estilos.css' %}">
+    <link rel = "stylesheet" href="{% static 'css/contato.css' %}">
 </head>
     <body>
-        <h1>Home</h1>
+    <center>
+    <h1>Home</h1>
+        <img src="{% static 'images/djangoLogo.png' %}">
         <h2>{{ curso }}</h2>
 
         <table>
@@ -25,5 +27,9 @@
             </tbody>
 
         </table>
+
+        <button onclick="teste();">Clique</button>
+</center>
+        <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
     </body>
 </html>
