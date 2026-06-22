@@ -1,10 +1,13 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Contato</title>
+    <link rel = 'stylesheet' href= "{% static 'css/contato.css' %}">
 </head>
 <body>
   <h1>Contato</h1>
+    <p><a href = "{% url 'index' %}">voltar</a></p>
 </body>
 </html>
